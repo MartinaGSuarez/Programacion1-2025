@@ -1,4 +1,4 @@
-# TRABAJO PRACTICO 2
+# TRABAJO PRACTICO 3
 #1) Escribir un programa que solicite la edad del usuario. Si el usuario es mayor de 18 años,
 #deberá mostrar un mensaje en pantalla que diga “Es mayor de edad”.
 
@@ -187,5 +187,6 @@ elif hemisferio == "S":
 
 else: 
     estacion = "Hemisferio invalido."
+
 
 print("La estacion del año es:", estacion)
