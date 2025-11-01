@@ -1,21 +1,21 @@
 import math
 
-# 1️⃣ Imprimir "Hola Mundo!"
+# 1 Imprimir "Hola Mundo!"
 def imprimir_hola_mundo():
     print("Hola Mundo!")
 
 
-# 2️⃣ Saludo personalizado
+# 2 Saludo personalizado
 def saludar_usuario(nombre):
     return f"Hola {nombre}!"
 
 
-# 3️⃣ Información personal
+# 3 Información personal
 def informacion_personal(nombre, apellido, edad, residencia):
     print(f"Soy {nombre} {apellido}, tengo {edad} años y vivo en {residencia}.")
 
 
-# 4️⃣ Área y perímetro del círculo
+# 4 Área y perímetro del círculo
 def calcular_area_circulo(radio):
     return math.pi * radio ** 2
 
@@ -23,19 +23,19 @@ def calcular_perimetro_circulo(radio):
     return 2 * math.pi * radio
 
 
-# 5️⃣ Convertir segundos a horas
+# 5 Convertir segundos a horas
 def segundos_a_horas(segundos):
     return segundos / 3600
 
 
-# 6️⃣ Tabla de multiplicar
+# 6 Tabla de multiplicar
 def tabla_multiplicar(numero):
     print(f"Tabla del {numero}:")
     for i in range(1, 11):
         print(f"{numero} x {i} = {numero * i}")
 
 
-# 7️⃣ Operaciones básicas
+# 7 Operaciones básicas
 def operaciones_basicas(a, b):
     suma = a + b
     resta = a - b
@@ -44,23 +44,23 @@ def operaciones_basicas(a, b):
     return suma, resta, multiplicacion, division
 
 
-# 8️⃣ Calcular IMC
+# 8 Calcular IMC
 def calcular_imc(peso, altura):
     imc = peso / (altura ** 2)
     return round(imc, 2)
 
 
-# 9️⃣ Celsius a Fahrenheit
+# 9 Celsius a Fahrenheit
 def celsius_a_fahrenheit(celsius):
     return (celsius * 9/5) + 32
 
 
-# 🔟 Calcular promedio
+# 10 Calcular promedio
 def calcular_promedio(a, b, c):
     return (a + b + c) / 3
 
 
-# 🧠 Programa principal
+#  Programa principal
 def main():
     print("=== 1. Hola Mundo ===")
     imprimir_hola_mundo()
@@ -127,3 +127,4 @@ def main():
 # Ejecutar el programa principal
 if __name__ == "__main__":
     main()
+
